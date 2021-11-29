@@ -1,0 +1,169 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB533A9F-C778-891F-F0C3-6EAFDC47883D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Astrolabe", "Astrolabe\Astrolabe.vcxproj", "{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{53E47842-3FC8-3998-A828-34EB942B241A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "Astrolabe\vendor\glfw\GLFW.vcxproj", "{154B857C-0182-860D-AA6E-6C109684020F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glad", "Astrolabe\vendor\Glad\Glad.vcxproj", "{BDD6857C-A90D-870D-52FA-6C103E10030F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGui", "Astrolabe\vendor\imgui\ImGui.vcxproj", "{C0FF640D-2C14-8DBE-F595-301E616989EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Premake", "vendor\premake\Premake.vcxproj", "{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win64 = Debug|Win64
+		Distribution|Win64 = Distribution|Win64
+		Release|Win64 = Release|Win64
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Anrdoid-ARM = Debug|Anrdoid-ARM
+		Debug|iOS-ARM = Debug|iOS-ARM
+		Debug|Win32 = Debug|Win32
+		Distribution|Anrdoid-ARM = Distribution|Anrdoid-ARM
+		Distribution|iOS-ARM = Distribution|iOS-ARM
+		Distribution|Win32 = Distribution|Win32
+		Release|Anrdoid-ARM = Release|Anrdoid-ARM
+		Release|iOS-ARM = Release|iOS-ARM
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Anrdoid-ARM.ActiveCfg = Debug Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Anrdoid-ARM.Build.0 = Debug Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|iOS-ARM.ActiveCfg = Debug iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|iOS-ARM.Build.0 = Debug iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Win32.Build.0 = Debug|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Debug|Win64.Build.0 = Debug Win64|x64
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Anrdoid-ARM.ActiveCfg = Distribution Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Anrdoid-ARM.Build.0 = Distribution Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|iOS-ARM.ActiveCfg = Distribution iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|iOS-ARM.Build.0 = Distribution iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Win32.ActiveCfg = Distribution|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Win32.Build.0 = Distribution|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Win64.ActiveCfg = Distribution Win64|x64
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Distribution|Win64.Build.0 = Distribution Win64|x64
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Anrdoid-ARM.ActiveCfg = Release Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Anrdoid-ARM.Build.0 = Release Anrdoid-ARM|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|iOS-ARM.ActiveCfg = Release iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|iOS-ARM.Build.0 = Release iOS-ARM|ARM
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Win32.ActiveCfg = Release|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Win32.Build.0 = Release|Win32
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Win64.ActiveCfg = Release Win64|x64
+		{A2FEAC9A-0E69-6111-57A7-12B7C3503F66}.Release|Win64.Build.0 = Release Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Anrdoid-ARM.ActiveCfg = Debug Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Anrdoid-ARM.Build.0 = Debug Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|iOS-ARM.ActiveCfg = Debug iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|iOS-ARM.Build.0 = Debug iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win32.Build.0 = Debug|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win64.Build.0 = Debug Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Anrdoid-ARM.ActiveCfg = Distribution Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Anrdoid-ARM.Build.0 = Distribution Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|iOS-ARM.ActiveCfg = Distribution iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|iOS-ARM.Build.0 = Distribution iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Win32.ActiveCfg = Distribution|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Win32.Build.0 = Distribution|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Win64.ActiveCfg = Distribution Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Distribution|Win64.Build.0 = Distribution Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Anrdoid-ARM.ActiveCfg = Release Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Anrdoid-ARM.Build.0 = Release Anrdoid-ARM|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|iOS-ARM.ActiveCfg = Release iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|iOS-ARM.Build.0 = Release iOS-ARM|ARM
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win32.ActiveCfg = Release|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win32.Build.0 = Release|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win64.ActiveCfg = Release Win64|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win64.Build.0 = Release Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Anrdoid-ARM.ActiveCfg = Debug Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Anrdoid-ARM.Build.0 = Debug Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|iOS-ARM.ActiveCfg = Debug iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|iOS-ARM.Build.0 = Debug iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Win32.Build.0 = Debug|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Debug|Win64.Build.0 = Debug Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Anrdoid-ARM.ActiveCfg = Distribution Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Anrdoid-ARM.Build.0 = Distribution Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|iOS-ARM.ActiveCfg = Distribution iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|iOS-ARM.Build.0 = Distribution iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Win32.ActiveCfg = Distribution|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Win32.Build.0 = Distribution|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Win64.ActiveCfg = Distribution Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Distribution|Win64.Build.0 = Distribution Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Anrdoid-ARM.ActiveCfg = Release Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Anrdoid-ARM.Build.0 = Release Anrdoid-ARM|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|iOS-ARM.ActiveCfg = Release iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|iOS-ARM.Build.0 = Release iOS-ARM|ARM
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Win32.ActiveCfg = Release|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Win32.Build.0 = Release|Win32
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Win64.ActiveCfg = Release Win64|x64
+		{BDD6857C-A90D-870D-52FA-6C103E10030F}.Release|Win64.Build.0 = Release Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Anrdoid-ARM.ActiveCfg = Debug Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Anrdoid-ARM.Build.0 = Debug Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|iOS-ARM.ActiveCfg = Debug iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|iOS-ARM.Build.0 = Debug iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Win32.Build.0 = Debug|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Win64.Build.0 = Debug Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Anrdoid-ARM.ActiveCfg = Distribution Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Anrdoid-ARM.Build.0 = Distribution Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|iOS-ARM.ActiveCfg = Distribution iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|iOS-ARM.Build.0 = Distribution iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Win32.ActiveCfg = Distribution|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Win32.Build.0 = Distribution|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Win64.ActiveCfg = Distribution Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Distribution|Win64.Build.0 = Distribution Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Anrdoid-ARM.ActiveCfg = Release Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Anrdoid-ARM.Build.0 = Release Anrdoid-ARM|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|iOS-ARM.ActiveCfg = Release iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|iOS-ARM.Build.0 = Release iOS-ARM|ARM
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Win32.ActiveCfg = Release|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Win32.Build.0 = Release|Win32
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Win64.ActiveCfg = Release Win64|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Win64.Build.0 = Release Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Anrdoid-ARM.ActiveCfg = Debug Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Anrdoid-ARM.Build.0 = Debug Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|iOS-ARM.ActiveCfg = Debug iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|iOS-ARM.Build.0 = Debug iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win32.Build.0 = Debug|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win64.Build.0 = Debug Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Anrdoid-ARM.ActiveCfg = Distribution Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Anrdoid-ARM.Build.0 = Distribution Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|iOS-ARM.ActiveCfg = Distribution iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|iOS-ARM.Build.0 = Distribution iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Win32.ActiveCfg = Distribution|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Win32.Build.0 = Distribution|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Win64.ActiveCfg = Distribution Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Distribution|Win64.Build.0 = Distribution Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Anrdoid-ARM.ActiveCfg = Release Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Anrdoid-ARM.Build.0 = Release Anrdoid-ARM|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|iOS-ARM.ActiveCfg = Release iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|iOS-ARM.Build.0 = Release iOS-ARM|ARM
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Win32.ActiveCfg = Release|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Win32.Build.0 = Release|Win32
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Win64.ActiveCfg = Release Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|Win64.Build.0 = Release Win64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{154B857C-0182-860D-AA6E-6C109684020F} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{BDD6857C-A90D-870D-52FA-6C103E10030F} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{C0FF640D-2C14-8DBE-F595-301E616989EF} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520} = {53E47842-3FC8-3998-A828-34EB942B241A}
+	EndGlobalSection
+EndGlobal

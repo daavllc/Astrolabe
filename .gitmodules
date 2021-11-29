@@ -1,0 +1,7 @@
+[submodule "Astrolabe/vendor/glfw"]
+	path = Astrolabe/vendor/glfw
+	url = https://github.com/Anonoei/glfw
+[submodule "Astrolabe/vendor/imgui"]
+	path = Astrolabe/vendor/imgui
+	url = https://github.com/Anonoei/imgui
+	branch = docking
